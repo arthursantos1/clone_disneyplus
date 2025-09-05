@@ -3,6 +3,8 @@
 @use 'shows';
 @use 'plans';
 @use 'avaible-devices';
+@use 'faq';
+@use 'footer';
 
 *{
     margin: 0;
@@ -79,6 +81,8 @@ body{
     border-radius: 4px;
     margin-top: 2vw;
     margin-bottom: 8px;
+    border: none;
+    cursor: pointer;
 }
 
 .image-text-section {
